@@ -26,8 +26,6 @@ application, just be careful to make sure your answers and code are lined approp
 In this case, you may want to save as a PDF to ensure your formatting remains intact
 for you reviewer.
 
-
-
 Part 1: Yelp Dataset Profiling and Understanding
 
 1. Profile the data by finding the total number of records for each of the tables below:
@@ -48,7 +46,6 @@ Part 1: Yelp Dataset Profiling and Understanding
 	xi. 	user table = 10000
 	
 
-
 2. Find the total number of distinct records for each of the keys listed below:
 
 		SELECT COUNT(DISTINCT(key))
@@ -66,7 +63,6 @@ Part 1: Yelp Dataset Profiling and Understanding
 	x. 		Friend = user_id: 11
 	xi. 	Elite_years = user_id: 2780
 	
-
 
 3. Are there any columns with null values in the Users table? Indicate "yes," or "no."
 
@@ -98,7 +94,6 @@ Part 1: Yelp Dataset Profiling and Understanding
 		  compliment_writer IS NULL OR 
 		  compliment_photos IS NULL 
 	
-
 	
 4. Find the minimum, maximum, and average value for the following fields:
 
@@ -129,7 +124,6 @@ Part 1: Yelp Dataset Profiling and Understanding
 	
 		min: 0		max: 2000		avg: 24.2995
 		
-
 
 5. List the cities with the most reviews in descending order:
 
@@ -172,7 +166,6 @@ Part 1: Yelp Dataset Profiling and Understanding
 		| Lakewood        |    1465 |
 		| Goodyear        |    1155 |
 		+-----------------+---------+
-
 	
 6. Find the distribution of star ratings to the business in the following cities:
 
@@ -291,7 +284,6 @@ Part 1: Yelp Dataset Profiling and Understanding
 		| -8lbUNlXVSoXqaRRiHiSNg | Yuri      |         1339 |   76 | 2008-01-03 00:00:00 |
 		| -0zEEaDFIjABtPQni0XlHA | Nicole    |          161 |   73 | 2009-04-30 00:00:00 |
 		+------------------------+-----------+--------------+------+---------------------+
-	
 
 	
 9. Are there more reviews with the word "love" or with the word "hate" in them?
